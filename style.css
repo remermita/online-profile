@@ -1,21 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Outfit', sans-serif;
 }
 
 .flower {
-	background-color: #14213D;
+	background-color: #F2EBDF;
 }
 
 .portfolio-menu {
-	color: white !important;
+	color: #161040 !important;
 	font-family: 'Ubuntu', sans-serif;
 }
 
 .toggle-button {
 	;
+}
+
+.abt {
+	color: #161040;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 45px;
+	margin-left: 7rem;
+	padding-top: 5rem;
+}
+
+.myname {
+	color: #161040;
+	font-size: 23px;
+	margin-left: 7rem;
+}
+
+.remphoto {
+	width: 256px;
+	height: auto;
+	padding-top: 3rem;
+}
+
+.puter {
+	color: #161040 !important;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+body > div > h2 {
+	font-weight: bold;
+	font-kerning: inherit;
+	letter-spacing: 0.8em;
 }
