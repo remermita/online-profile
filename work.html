@@ -12,51 +12,134 @@
 </head>
 <body>
 	<!-- Start of Nav Bar -->
-	<nav class="navbar navbar-expand-lg navbar-dark flower">
-		<a class="navbar-brand" href="./index.html">
+	<nav class="navbar navbar-expand-lg navbar-dark flower-nav">
+		<a class="navbar-brand flower" href="./index.html">
 			<img src="./images/flower.png" width="32px" height="32px">
 		</a>
 		<button class="navbar-toggler toggle-button" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="text-white collapse navbar-collapse" id="navbarNav">
+		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item active">
-					<a class="nav-link portfolio-menu" href="./index.html">Home<span class="sr-only">(current)</span></a>
+					<a class="nav-link" href="./index.html">
+						<div class="portfolio-menu">
+							Home
+							<span class="sr-only">(current)</span>
+						</div>
+					</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link portfolio-menu" href="#">Work</a>
+					<a class="nav-link" href="./work.html">
+						<div class="portfolio-menu">
+							Work
+						</div>
+					</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link portfolio-menu" href="#">Get in Touch!</a>
+					<a class="nav-link" href="./contact.html">
+						<div class="portfolio-menu">
+							Get in Touch!
+						</div>
+					</a>
 				</li>
 			</ul>
 		</div>
 	</nav>
 	<!-- End of nav bar -->
 
-	
-
-
-	<!-- footer -->
-	<footer class="page-footer p-2 puter">
-			<div class="text-center">
-					<a href="https://facebook.com/remermita/" class="text-dark mx-3" target="_blank">
-						<i class="fab fa-facebook-square"></i>
-					</a>
-					<a href="https://www.linkedin.com/in/rem-ermita-0048/" class="text-dark mx-3" target="_blank">
-						<i class="fab fa-linkedin"></i>
-					</a>
-					<a href="https://gitlab.com/rmermita" class="text-dark mx-3" target="_blank">
-						<i class="fab fa-gitlab"></i>
-					</a>
-					<a href="https://discord.com/users/386248821941993473" class="text-dark mx-3" target="_blank">
-						<i class="fab fa-discord"></i>
-					</a>
+	<!-- Start of Work exp -->
+	<!-- Other Projects Start -->
+	<div class="container">
+		<h2 class="text-center p-3">PROJECTS</h2>
+		<div class="row">
+			<div class="col-md-7 text-center">
+				<h5 class="educare">Educare4U</h5>
+				<p class="text-justify py-1">
+					Educare4U is designed to offer our students access to international education in Singapore and an environment where they can be nurtured to have Asian values.
+				</p>
+				<p class="text-center py-1 tech-stack">
+					Tech Stack:
+					<img src="https://img.icons8.com/doodle/48/000000/squarespace.png"/>
+					<img src="https://img.icons8.com/ios-filled/50/000000/html.png"/>
+					<img src="https://img.icons8.com/ios-filled/50/000000/css.png"/>
+				</p>
 			</div>
-	</footer>
-	<!-- end of footer -->
+			<div class="col-md-1 text-left order-md-last order-sm-first">
+				<img src="./images/educareguardian.png" class="educareguardian-image">
+			</div>
+		</div>
+		<div class="row">
+			<img src="./images/venture.gif" class="mr-auto venture-gif">
+			<div class="col-md-7 text-center">
+				<h5 class="venture-txt">Venture Capital Funds Website</h5>
+				<p class="text-justify py-1">Created by and for investors in SEA. It was established on the belief that future generations can lead a bright and fulfilling life.
+				</p>
+				<p class="text-center py-1 tech-stack">
+					Tech Stack:
+					<img src="https://img.icons8.com/windows/32/000000/wix.png"/>
+					<img src="https://img.icons8.com/ios-filled/50/000000/adobe-photoshop--v1.png"/>
+					<img src="https://img.icons8.com/ios-filled/50/000000/adobe-illustrator.png"/>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- End of Work Exp -->
 
+	<!-- Other Projects -->
+	<div class="container">
+		<h2 class="text-center">OTHER PROJECTS</h2>
+		<div class="card-deck otherprojects">
+			<div class="card">
+				<img src="./images/12days.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title text-center">12 Days to Destiny</h5>
+				</div>
+			</div>
+			<div class="card">
+				<img src="./images/ani.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title text-center">Hiram na Ani</h5>
+				</div>
+			</div>
+			<div class="card">
+				<img src="./images/iscam.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title text-center">iScam</h5>
+				</div>
+			</div>
+			<div class="card">
+				<img src="./images/jeronima.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title text-center">Ang Luha at Lualhati ni Jeronima</h5>
+				</div>
+			</div>
+			<div class="card">
+				<img src="./images/next12.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title text-center">The Next 12 Days</h5>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- footer -->
+	<footer class="page-footer puter">
+		<div class="text-center">
+			<a href="https://facebook.com/remermita/" class="text-light mx-2" target="_blank">
+				<i class="fab fa-facebook-square"></i>
+			</a>
+			<a href="https://www.linkedin.com/in/rem-ermita-0048/" class="text-light mx-2" target="_blank">
+				<i class="fab fa-linkedin"></i>
+			</a>
+			<a href="https://gitlab.com/rmermita" class="text-light mx-2" target="_blank">
+				<i class="fab fa-gitlab"></i>
+			</a>
+			<a href="https://discord.com/users/386248821941993473" class="text-light mx-2" target="_blank">
+				<i class="fab fa-discord"></i>
+			</a>
+			<p class="all-rights">© All rights reserved.</p>	
+		</div>
+	</footer>
 	<!-- Dependencies -->
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>

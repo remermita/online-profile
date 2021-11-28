@@ -5,16 +5,32 @@
 	margin: 0;
 	box-sizing: border-box;
 	font-family: 'Outfit', sans-serif;
+	color: #161040;
 }
 
-.flower {
+.flower-nav {
 	background-color: #F2EBDF;
 }
 
-.portfolio-menu {
-	color: #161040 !important;
-	font-family: 'Ubuntu', sans-serif;
+.flower {
+	margin-left: 3vh;
 }
+
+.portfolio-menu {
+	color: #161040;
+	font-family: 'Ubuntu', sans-serif;
+	padding: 0.3rem;
+}
+
+.portfolio-menu:hover {
+	background-color: #9A97A6;
+	transform: skewX(-10deg);
+    -o-transform: skewX(-10deg);
+    -moz-transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+    color: #F2EBDF;
+}
+
 
 .toggle-button {
 	;
@@ -24,8 +40,18 @@
 	color: #161040;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 45px;
-	margin-left: 7rem;
 	padding-top: 5rem;
+	margin-left: 7rem;
+}
+
+.abtme1 {
+	width: 256px;
+	height: auto; 
+}
+
+.abtmecoding {
+	width: 256px;
+	height: auto;
 }
 
 .myname {
@@ -41,13 +67,92 @@
 }
 
 .puter {
-	color: #161040 !important;
-	font-size: 15px;
+	padding-top: 0.5rem;
+	padding-bottom: 0.2rem;
+	font-size: 16px;
 	text-decoration: none;
+}
+
+.all-rights {
+	color: #161040;;
 }
 
 body > div > h2 {
 	font-weight: bold;
 	font-kerning: inherit;
-	letter-spacing: 0.8em;
+	letter-spacing: 0.5em;
+	font-size: 3.5vh;
+	padding: 1rem;
+}
+
+.modal-footer {
+	text-align: center;
+}
+
+.modal-title, .modal-body {
+	text-align: center;
+}
+
+.educare {
+	padding: 1rem;
+	font-weight: bold;
+}
+
+.educareguardian-image {
+	padding: 1rem;
+	width: 500px;
+}
+
+.venture-gif {
+	width: 400px;
+	padding: 2rem;
+}
+
+.venture-txt {
+	padding: 1rem;
+	font-weight: bold;
+}
+
+.tech-stack {
+	font-weight: bold;
+}
+
+.other-proj {
+	width: 18rem;
+}
+
+body > h2 {
+	font-weight: bold;
+	font-kerning: inherit;
+	letter-spacing: 0.5em;
+	font-size: 3.5vh;
+	padding: 1.5rem;
+}
+
+.otherprojects {
+	padding: 2rem;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+	.myname {
+		text-align: center;
+		margin-right: 2rem;
+	}
+
+	.abt {
+		margin-right: 4rem;
+		text-align: center;
+	}
+
+	.venture-gif {
+		margin-left: 5rem;
+	}
+
+	.card-deck .card {
+    	-ms-flex: 0 0 32%;
+    	flex: 0 0 32%;
+    	margin: 2rem;
+  	}
 }
