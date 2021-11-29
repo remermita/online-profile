@@ -39,7 +39,7 @@
 .abt {
 	color: #161040;
 	font-family: 'Ubuntu', sans-serif;
-	font-size: 45px;
+	font-size: 43px;
 	padding-top: 5rem;
 	margin-left: 7rem;
 }
@@ -80,8 +80,8 @@
 body > div > h2 {
 	font-weight: bold;
 	font-kerning: inherit;
-	letter-spacing: 0.5em;
-	font-size: 3.5vh;
+	letter-spacing: 0.3em;
+	font-size: 3.2vh;
 	padding: 1rem;
 }
 
@@ -100,7 +100,7 @@ body > div > h2 {
 
 .educareguardian-image {
 	padding: 1rem;
-	width: 500px;
+	width: 480px;
 }
 
 .venture-gif {
@@ -142,17 +142,22 @@ body > h2 {
 	}
 
 	.abt {
-		margin-right: 4rem;
+		margin-right: 2rem;
 		text-align: center;
 	}
 
-	.venture-gif {
+	/*.venture-gif {
 		margin-left: 5rem;
-	}
+	}*/
 
 	.card-deck .card {
     	-ms-flex: 0 0 32%;
     	flex: 0 0 32%;
     	margin: 2rem;
   	}
+
+  	.educareguardian-image {
+		width: 360px;
+	}
+
 }
