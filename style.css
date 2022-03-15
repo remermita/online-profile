@@ -8,6 +8,11 @@
 	color: #161040;
 }
 
+.myname {
+	text-align: center;
+	justify-content: center;
+}
+
 .flower-nav {
 	background-color: #F2EBDF;
 }
@@ -29,11 +34,6 @@
     -moz-transform: skewX(-10deg);
     -webkit-transform: skewX(-10deg);
     color: #F2EBDF;
-}
-
-
-.toggle-button {
-	;
 }
 
 .abt {
@@ -101,11 +101,17 @@ body > div > h2 {
 .educareguardian-image {
 	padding: 1rem;
 	width: 480px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
 }
 
 .venture-gif {
 	width: 400px;
 	padding: 2rem;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
 }
 
 .venture-txt {
